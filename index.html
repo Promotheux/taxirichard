@@ -3,7 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taxi Richard Sneek | Al meer dan 10 jaar uw vertrouwde taxi</title>
+    <title>Taxi Richard Sneek | Al meer dan 20 jaar uw vertrouwde taxi in Sneek en omgeving</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Taxi Richard Sneek - Uw vertrouwde taxiservice in Sneek en omgeving sinds 2006. Schiphol vervoer, straattaxi en contractvervoer. Bel 06-24956722 voor een betrouwbare rit.">
+    <meta name="keywords" content="taxi sneek, taxi sneek, schiphol taxi, taxiservice sneek, taxi richard, vervoer sneek, straattaxi, contractvervoer">
+    <meta name="author" content="Taxi Richard Sneek">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.taxirichardsneek.nl/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.taxirichardsneek.nl/">
+    <meta property="og:title" content="Taxi Richard Sneek | Betrouwbare taxiservice in Sneek en omgeving">
+    <meta property="og:description" content="Al meer dan 20 jaar uw vertrouwde taxiservice. Schiphol vervoer, straattaxi en contractvervoer tegen scherpe tarieven.">
+    <meta property="og:image" content="https://www.taxirichardsneek.nl/assets/taxi-og.jpg">
+    <meta property="og:locale" content="nl_NL">
+    <meta property="og:site_name" content="Taxi Richard Sneek">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Taxi Richard Sneek | Betrouwbare taxiservice in Sneek en omgeving">
+    <meta name="twitter:description" content="Al meer dan 20 jaar uw vertrouwde taxiservice. Schiphol vervoer, straattaxi en contractvervoer.">
+    <meta name="twitter:image" content="https://www.taxirichardsneek.nl/assets/taxi-og.jpg">
+
+    <!-- Geo Tags voor lokale SEO -->
+    <meta name="geo.region" content="NL-FR">
+    <meta name="geo.placename" content="Sneek">
+    <meta name="geo.position" content="53.0326;5.6552">
+    <meta name="ICBM" content="53.0326, 5.6552">
+
+    <!-- Structured Data - LocalBusiness -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "TaxiService",
+        "name": "Taxi Richard Sneek",
+        "image": "https://www.taxirichardsneek.nl/assets/logo-richard.svg",
+        "url": "https://www.taxirichardsneek.nl",
+        "telephone": "+31624956722",
+        "email": "info@taxirichardsneek.nl",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Walstro 1",
+            "addressLocality": "Sneek",
+            "postalCode": "8607EN",
+            "addressCountry": "NL"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 53.0326,
+            "longitude": 5.6552
+        },
+        "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "00:00",
+            "closes": "23:59"
+        },
+        "priceRange": "€€",
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.5",
+            "reviewCount": "79"
+        },
+        "areaServed": [
+            {
+                "@type": "City",
+                "name": "Sneek"
+            },
+            {
+                "@type": "State",
+                "name": "Friesland"
+            }
+        ],
+        "sameAs": [
+            "https://www.google.com/search?q=taxi+richard+sneek"
+        ]
+    }
+    </script>
+
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script>
@@ -15,7 +94,7 @@
         body { font-family: 'Inter', sans-serif; }
         .hero-image {
             /* Gebruik hier de naam van de geüploade foto van de Mercedes */
-            background-image: linear-gradient(to right, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 100%), url('/assets/taxi.png');
+            background-image: linear-gradient(to right, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.4) 100%), url('/assets/taxis.png');
             background-size: cover;
             background-position: center;
         }
@@ -42,7 +121,7 @@
         <div class="container mx-auto px-4 lg:px-12 py-3 flex justify-between items-center">
             <a href="#" class="flex items-center">
                 <!-- Het nieuwe logo met Waterpoort -->
-                <img src="/assets/logo-richard.png" alt="Taxi Richard Sneek Logo" class="logo-img dark:brightness-110">
+                <img src="/assets/logo-richard.svg" alt="Taxi Richard Sneek Logo" class="logo-img">
             </a>
 
             <div class="hidden md:flex items-center space-x-8 font-semibold text-xs uppercase tracking-widest text-slate-600 dark:text-slate-400">
@@ -64,10 +143,10 @@
     <!-- Hero Section met Mercedes Foto -->
     <header class="relative min-h-[95vh] flex items-center overflow-hidden bg-slate-900 hero-image">
         <div class="absolute inset-0 hero-overlay"></div>
-        <div class="container mx-auto px-4 md:px-12 relative z-20">
+        <div class="container mx-auto px-4 md:px-12 relative z-20 flex flex-col min-h-[95vh] justify-center pb-8">
             <div class="max-w-3xl">
                 <span class="inline-flex items-center px-4 py-1.5 rounded-full bg-sky-500 text-white text-[10px] font-black uppercase tracking-widest mb-6 shadow-xl">
-                    Sinds 2016 een begrip in Friesland
+                    Sinds 2006 een begrip in Sneek
                 </span>
                 <h1 class="text-5xl md:text-7xl lg:text-8xl font-black text-white mb-6 leading-tight">
                     Taxi Richard <br> <span class="text-sky-400 italic">Sneek.</span>
@@ -110,7 +189,7 @@
                     <!-- Collage met de Waterpoort identiteit -->
                     <div class="relative p-6">
                         <div class="absolute inset-0 bg-sky-500 rounded-[3rem] rotate-3 scale-95 opacity-20"></div>
-                        <img src="/assets/taxi.png" alt="Mercedes Taxi Richard" class="relative z-10 rounded-[2.5rem] shadow-2xl w-full h-auto object-cover transform -rotate-2 hover:rotate-0 transition-transform duration-500">
+                        <img src="/assets/taxi3.png" alt="Mercedes Taxi Richard" class="relative z-10 rounded-[2.5rem] shadow-2xl w-full h-auto object-cover transform -rotate-2 hover:rotate-0 transition-transform duration-500">
                     </div>
                 </div>
             </div>
@@ -210,7 +289,7 @@
                     </div>
 
                     <div class="bg-white text-slate-900 p-10 rounded-[2rem] shadow-2xl relative self-center">
-                        <img src="/assets/logo-richard.png" alt="Logo" class="w-32 mb-6 brightness-0 opacity-80">
+                        <img src="/assets/logo-richard.svg" alt="Logo" class="w-32 mb-6 brightness-0 opacity-80">
                         <p class="text-lg leading-relaxed text-slate-600 mb-8 italic">
                             "Wij onderscheiden ons door alle afspraken na te komen en op tijd te rijden. Wij verzorgen uw rit zoals u dat mag verwachten."
                         </p>
@@ -230,10 +309,32 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
                 <!-- Logo & Tagline -->
                 <div class="lg:col-span-1">
-                    <img src="/assets/logo-richard.png" alt="Taxi Richard Sneek Logo" class="h-12 mb-4 brightness-0 dark:invert">
+                    <img src="/assets/logo-richard.svg" alt="Taxi Richard Sneek Logo" class="h-12 mb-4 brightness-0 dark:invert">
                     <p class="text-slate-600 dark:text-slate-400 text-sm leading-relaxed mb-4">
-                        Al meer dan 10 jaar uw vertrouwde taxiservice in Friesland. Kwaliteit door kleinschaligheid.
+                        Al meer dan 20 jaar uw vertrouwde taxiservice in Sneek en omgeving. Kwaliteit door kleinschaligheid.
                     </p>
+                    <!-- Google Reviews Badge -->
+                    <a href="https://www.google.com/search?q=taxi+richard+jaasma+sneek+reviews" target="_blank" rel="noopener" class="inline-flex items-center gap-3 px-4 py-3 bg-white dark:bg-slate-800 border border-slate-300 dark:border-slate-700 rounded-xl shadow-md hover:shadow-lg transition-all group">
+                        <svg class="h-6 w-6" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                            <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                            <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+                            <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+                        </svg>
+                        <div class="flex flex-col">
+                            <div class="flex items-center gap-1">
+                                <span class="text-slate-900 dark:text-white font-bold text-sm">4,5</span>
+                                <div class="flex">
+                                    <svg class="h-4 w-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="h-4 w-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="h-4 w-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="h-4 w-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                                    <svg class="h-4 w-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" fill-opacity="0.5"/></svg>
+                                </div>
+                            </div>
+                            <span class="text-slate-500 dark:text-slate-400 text-xs">79 Google Reviews</span>
+                        </div>
+                    </a>
                 </div>
 
                 <!-- Contact -->
@@ -299,6 +400,5 @@
             </div>
         </div>
     </footer>
-
 </body>
 </html>
